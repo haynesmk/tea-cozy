@@ -27,11 +27,26 @@ header {
     top: 0;
 }
 
+label {
+    font-weight: bold;
+}
 
 .nav-link {
     text-decoration: underline;
     color: seashell;
     padding: 20px;
+}
+
+.tea-pic {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.tea {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
 }
 
 #logo {
@@ -57,4 +72,17 @@ header {
 
 #mission h2,h4 {
     padding: 10px;
+}
+
+#tea-of-the-month h2,h4 {
+    padding: 10px;
+    
+}
+
+#teas {
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
 }
