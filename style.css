@@ -116,3 +116,7 @@ label {
     display: flex;
     justify-content: center;
 }
+
+#contact {
+    margin-top: 10px;
+}
