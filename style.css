@@ -37,3 +37,24 @@ header {
 #logo {
     height: 50px;
 }
+
+#banner {
+    margin-top: 69px;
+    position: relative;
+}
+
+#mission {
+    position: absolute;
+    width: 1200px;
+    z-index: 1;
+    top: 100px;
+    background-color: black;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 46%;
+}
+
+#mission h2,h4 {
+    padding: 10px;
+}
