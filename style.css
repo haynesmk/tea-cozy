@@ -25,6 +25,8 @@ header {
     width: 100%;
     align-items: center;
     top: 0;
+    background-color: black;
+    z-index: 10;
 }
 
 label {
@@ -34,7 +36,7 @@ label {
 .nav-link {
     text-decoration: underline;
     color: seashell;
-    padding: 20px;
+    padding: 12px;
 }
 
 .tea-pic {
@@ -49,8 +51,20 @@ label {
     padding: 15px;
 }
 
+.location {
+    width: 300px;
+    background-color: black;
+    margin: 20px;
+    opacity: 1;
+}
+
+.location h3, p {
+    padding: 20px;
+}
+
 #logo {
     height: 50px;
+    margin-left: 10px;
 }
 
 #banner {
@@ -84,5 +98,21 @@ label {
     width: 1000px;
     margin: auto;
     flex-wrap: wrap;
+    justify-content: center;
+}
+
+#store-locations {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+#store-locations h2 {
+    margin-bottom: 15px;
+}
+
+#locations {
+    display: flex;
     justify-content: center;
 }
