@@ -33,6 +33,11 @@ label {
     font-weight: bold;
 }
 
+footer {
+    margin: 30px 20px;
+    text-align: left;
+}
+
 .nav-link {
     text-decoration: underline;
     color: seashell;
@@ -90,7 +95,6 @@ label {
 
 #tea-of-the-month h2,h4 {
     padding: 10px;
-    
 }
 
 #teas {
@@ -118,5 +122,6 @@ label {
 }
 
 #contact {
-    margin-top: 10px;
+    padding-top: 10px;
+    height: 200px;
 }
