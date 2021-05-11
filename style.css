@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 html {
     font-family: Helvetica;
     font-size: 22px;
@@ -5,4 +10,28 @@ html {
     background-color: black;
     opacity: 0.9;
     text-align: center;
+}
+
+nav {
+    display: flex;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    align-items: center;
+    top: 0;
+}
+
+.nav-link {
+    text-decoration: underline;
+    color: seashell;
+}
+
+#logo {
+    height: 50px;
 }
