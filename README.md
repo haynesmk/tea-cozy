@@ -1,2 +1,2 @@
 # tea-cozy
-Codecademy - Full Stack Developer - Tea Cozy - a fictional tea shop website
+Codecademy - CSS Flexbox - Tea Cozy - a fictional tea shop website
